@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376BEE5030315015008B0CEC /* HAWTPotatoCore in Frameworks */ = {isa = PBXBuildFile; productRef = P10000000000000000000002 /* HAWTPotatoCore */; };
+		376BEE5130315015008B0CEC /* HAWTPotatoCore in Frameworks */ = {isa = PBXBuildFile; productRef = P10000000000000000000003 /* HAWTPotatoCore */; };
+		376BEE5230315015008B0CEC /* HAWTPotatoCore in Frameworks */ = {isa = PBXBuildFile; productRef = P10000000000000000000004 /* HAWTPotatoCore */; };
+		376BEE5330315015008B0CEC /* HAWTPotatoCore in Frameworks */ = {isa = PBXBuildFile; productRef = P10000000000000000000006 /* HAWTPotatoCore */; };
+		376BEE5430315015008B0CEC /* HAWTPotatoCore in Frameworks */ = {isa = PBXBuildFile; productRef = P10000000000000000000005 /* HAWTPotatoCore */; };
+		E30000000000000000000001 /* HAWT POTATO Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C10000000000000000000001 /* HAWT POTATO Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E30000000000000000000002 /* HAWTPotatoMessages.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D10000000000000000000001 /* HAWTPotatoMessages.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E30000000000000000000003 /* HAWTPotatoWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* HAWTPotatoWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E30000000000000000000004 /* HAWTPotatoClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = E10000000000000000000001 /* HAWTPotatoClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		X10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D40000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10000000000000000000003;
+			remoteInfo = HAWTPotatoWatch;
+		};
+		X10000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D40000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10000000000000000000003;
+			remoteInfo = HAWTPotatoMessages;
+		};
+		X10000000000000000000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D40000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10000000000000000000003;
+			remoteInfo = HAWTPotatoWidgets;
+		};
+		X10000000000000000000004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D40000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000003;
+			remoteInfo = HAWTPotatoClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E20000000000000000000001 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				E30000000000000000000001 /* HAWT POTATO Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+		E20000000000000000000002 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				E30000000000000000000002 /* HAWTPotatoMessages.appex in Embed Foundation Extensions */,
+				E30000000000000000000003 /* HAWTPotatoWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+		E20000000000000000000003 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolder = Product;
+			files = (
+				E30000000000000000000004 /* HAWTPotatoClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D40000000000000005 /* HAWT POTATO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAWT POTATO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10000000000000000000001 /* HAWT POTATO Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAWT POTATO Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10000000000000000000001 /* HAWTPotatoMessages.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HAWTPotatoMessages.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10000000000000000000001 /* HAWTPotatoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAWTPotatoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000001 /* HAWTPotatoWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HAWTPotatoWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EXCL00000000000000000001 /* Exceptions for "HAWT POTATO" folder in "HAWT POTATO" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A1B2C3D40000000000000006 /* HAWT POTATO */;
+		};
+		EXCL00000000000000000003 /* Exceptions for "HAWTPotatoMessages" folder in "HAWTPotatoMessages" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D10000000000000000000003 /* HAWTPotatoMessages */;
+		};
+		EXCL00000000000000000005 /* Exceptions for "HAWTPotatoWidgets" folder in "HAWTPotatoWidgets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F10000000000000000000003 /* HAWTPotatoWidgets */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A1B2C3D40000000000000004 /* HAWT POTATO */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EXCL00000000000000000001 /* Exceptions for "HAWT POTATO" folder in "HAWT POTATO" target */,
+			);
+			path = "HAWT POTATO";
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* HAWT POTATO Watch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HAWT POTATO Watch";
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* HAWTPotatoMessages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EXCL00000000000000000003 /* Exceptions for "HAWTPotatoMessages" folder in "HAWTPotatoMessages" target */,
+			);
+			path = HAWTPotatoMessages;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000002 /* HAWTPotatoClip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HAWTPotatoClip;
+			sourceTree = "<group>";
+		};
+		F10000000000000000000002 /* HAWTPotatoWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EXCL00000000000000000005 /* Exceptions for "HAWTPotatoWidgets" folder in "HAWTPotatoWidgets" target */,
+			);
+			path = HAWTPotatoWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4000000000000000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				376BEE5030315015008B0CEC /* HAWTPotatoCore in Frameworks */,
+			);
+		};
+		C10000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				376BEE5130315015008B0CEC /* HAWTPotatoCore in Frameworks */,
+			);
+		};
+		D10000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				376BEE5230315015008B0CEC /* HAWTPotatoCore in Frameworks */,
+			);
+		};
+		E10000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				376BEE5430315015008B0CEC /* HAWTPotatoCore in Frameworks */,
+			);
+		};
+		F10000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				376BEE5330315015008B0CEC /* HAWTPotatoCore in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D40000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D40000000000000004 /* HAWT POTATO */,
+				C10000000000000000000002 /* HAWT POTATO Watch */,
+				D10000000000000000000002 /* HAWTPotatoMessages */,
+				E10000000000000000000002 /* HAWTPotatoClip */,
+				F10000000000000000000002 /* HAWTPotatoWidgets */,
+				A1B2C3D40000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D40000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D40000000000000005 /* HAWT POTATO.app */,
+				C10000000000000000000001 /* HAWT POTATO Watch.app */,
+				D10000000000000000000001 /* HAWTPotatoMessages.appex */,
+				E10000000000000000000001 /* HAWTPotatoClip.app */,
+				F10000000000000000000001 /* HAWTPotatoWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D40000000000000006 /* HAWT POTATO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4000000000000000A /* Build configuration list for PBXNativeTarget "HAWT POTATO" */;
+			buildPhases = (
+				A1B2C3D4000000000000000D /* Sources */,
+				A1B2C3D4000000000000000E /* Frameworks */,
+				A1B2C3D4000000000000000F /* Resources */,
+				E20000000000000000000001 /* Embed Watch Content */,
+				E20000000000000000000002 /* Embed Foundation Extensions */,
+				E20000000000000000000003 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				T10000000000000000000001 /* PBXTargetDependency */,
+				T10000000000000000000002 /* PBXTargetDependency */,
+				T10000000000000000000003 /* PBXTargetDependency */,
+				T10000000000000000000004 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A1B2C3D40000000000000004 /* HAWT POTATO */,
+			);
+			name = "HAWT POTATO";
+			packageProductDependencies = (
+				P10000000000000000000002 /* HAWTPotatoCore */,
+			);
+			productName = "HAWT POTATO";
+			productReference = A1B2C3D40000000000000005 /* HAWT POTATO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C10000000000000000000003 /* HAWTPotatoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoWatch" */;
+			buildPhases = (
+				C10000000000000000000007 /* Sources */,
+				C10000000000000000000008 /* Frameworks */,
+				C10000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				C10000000000000000000002 /* HAWT POTATO Watch */,
+			);
+			name = HAWTPotatoWatch;
+			packageProductDependencies = (
+				P10000000000000000000003 /* HAWTPotatoCore */,
+			);
+			productName = HAWTPotatoWatch;
+			productReference = C10000000000000000000001 /* HAWT POTATO Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10000000000000000000003 /* HAWTPotatoMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoMessages" */;
+			buildPhases = (
+				D10000000000000000000007 /* Sources */,
+				D10000000000000000000008 /* Frameworks */,
+				D10000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D10000000000000000000002 /* HAWTPotatoMessages */,
+			);
+			name = HAWTPotatoMessages;
+			packageProductDependencies = (
+				P10000000000000000000004 /* HAWTPotatoCore */,
+			);
+			productName = HAWTPotatoMessages;
+			productReference = D10000000000000000000001 /* HAWTPotatoMessages.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		E10000000000000000000003 /* HAWTPotatoClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoClip" */;
+			buildPhases = (
+				E10000000000000000000007 /* Sources */,
+				E10000000000000000000008 /* Frameworks */,
+				E10000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				E10000000000000000000002 /* HAWTPotatoClip */,
+			);
+			name = HAWTPotatoClip;
+			packageProductDependencies = (
+				P10000000000000000000005 /* HAWTPotatoCore */,
+			);
+			productName = HAWTPotatoClip;
+			productReference = E10000000000000000000001 /* HAWTPotatoClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		F10000000000000000000003 /* HAWTPotatoWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoWidgets" */;
+			buildPhases = (
+				F10000000000000000000007 /* Sources */,
+				F10000000000000000000008 /* Frameworks */,
+				F10000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F10000000000000000000002 /* HAWTPotatoWidgets */,
+			);
+			name = HAWTPotatoWidgets;
+			packageProductDependencies = (
+				P10000000000000000000006 /* HAWTPotatoCore */,
+			);
+			productName = HAWTPotatoWidgets;
+			productReference = F10000000000000000000001 /* HAWTPotatoWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D40000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A1B2C3D40000000000000006 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					C10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					D10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					E10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					F10000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D40000000000000007 /* Build configuration list for PBXProject "HAWT POTATO" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D40000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				P10000000000000000000001 /* XCLocalSwiftPackageReference "HAWTPotatoCore" */,
+				376BEEAD3031506A008B0CEC /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			preferredProjectObjectVersion = 90;
+			productRefGroup = A1B2C3D40000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D40000000000000006 /* HAWT POTATO */,
+				C10000000000000000000003 /* HAWTPotatoWatch */,
+				D10000000000000000000003 /* HAWTPotatoMessages */,
+				E10000000000000000000003 /* HAWTPotatoClip */,
+				F10000000000000000000003 /* HAWTPotatoWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4000000000000000F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		C10000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D10000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E10000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F10000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4000000000000000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F10000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		T10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C10000000000000000000003 /* HAWTPotatoWatch */;
+			targetProxy = X10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		T10000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10000000000000000000003 /* HAWTPotatoMessages */;
+			targetProxy = X10000000000000000000002 /* PBXContainerItemProxy */;
+		};
+		T10000000000000000000003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10000000000000000000003 /* HAWTPotatoWidgets */;
+			targetProxy = X10000000000000000000003 /* PBXContainerItemProxy */;
+		};
+		T10000000000000000000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000003 /* HAWTPotatoClip */;
+			targetProxy = X10000000000000000000004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D40000000000000008 /* Debug configuration for PBXProject "HAWT POTATO" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D40000000000000009 /* Release configuration for PBXProject "HAWT POTATO" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		A1B2C3D4000000000000000B /* Debug configuration for PBXNativeTarget "HAWT POTATO" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HAWT POTATO/HAWT POTATO.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HAWT POTATO/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "HAWT POTATO uses Bluetooth to throw potatoes to people next to you.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "HAWT POTATO uses Bluetooth to throw potatoes to people next to you.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "HAWT POTATO uses your contacts so you can throw a potato in iMessage to someone in your phone.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "HAWT POTATO finds nearby players so you can throw without a room code.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HAWT POTATO uses location only when you choose to show a potato's journey.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "HAWT POTATO saves potato cards to your photo library when you swipe Save in History.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4000000000000000C /* Release configuration for PBXNativeTarget "HAWT POTATO" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HAWT POTATO/HAWT POTATO-Release.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HAWT POTATO/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "HAWT POTATO uses Bluetooth to throw potatoes to people next to you.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "HAWT POTATO uses Bluetooth to throw potatoes to people next to you.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "HAWT POTATO uses your contacts so you can throw a potato in iMessage to someone in your phone.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "HAWT POTATO finds nearby players so you can throw without a room code.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HAWT POTATO uses location only when you choose to show a potato's journey.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "HAWT POTATO saves potato cards to your photo library when you swipe Save in History.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoWatch" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HAWT POTATO Watch/HAWTPotatoWatch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.courtneyprater.HawtPotato;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.watchkitapp;
+				PRODUCT_NAME = "HAWT POTATO Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoWatch" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HAWT POTATO Watch/HAWTPotatoWatch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.courtneyprater.HawtPotato;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.watchkitapp;
+				PRODUCT_NAME = "HAWT POTATO Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		D10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoMessages" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoMessages/HAWTPotatoMessages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HAWTPotatoMessages/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.messages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoMessages" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoMessages/HAWTPotatoMessages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HAWTPotatoMessages/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.messages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoClip" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoClip/HAWTPotatoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoClip" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoClip/HAWTPotatoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "2026 Courtney & Kourtney Prater";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoWidgets/HAWTPotatoWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HAWTPotatoWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoWidgets" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HAWTPotatoWidgets/HAWTPotatoWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N73XW3H4MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HAWTPotatoWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HAWT POTATO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.courtneyprater.HawtPotato.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D40000000000000007 /* Build configuration list for PBXProject "HAWT POTATO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D40000000000000008 /* Debug configuration for PBXProject "HAWT POTATO" */,
+				A1B2C3D40000000000000009 /* Release configuration for PBXProject "HAWT POTATO" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4000000000000000A /* Build configuration list for PBXNativeTarget "HAWT POTATO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4000000000000000B /* Debug configuration for PBXNativeTarget "HAWT POTATO" */,
+				A1B2C3D4000000000000000C /* Release configuration for PBXNativeTarget "HAWT POTATO" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoWatch" */,
+				C10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoWatch" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoMessages" */,
+				D10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoMessages" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoClip" */,
+				E10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoClip" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000004 /* Build configuration list for PBXNativeTarget "HAWTPotatoWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000005 /* Debug configuration for PBXNativeTarget "HAWTPotatoWidgets" */,
+				F10000000000000000000006 /* Release configuration for PBXNativeTarget "HAWTPotatoWidgets" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		P10000000000000000000001 /* XCLocalSwiftPackageReference "HAWTPotatoCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = HAWTPotatoCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		376BEEAD3031506A008B0CEC /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		P10000000000000000000002 /* HAWTPotatoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HAWTPotatoCore;
+		};
+		P10000000000000000000003 /* HAWTPotatoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HAWTPotatoCore;
+		};
+		P10000000000000000000004 /* HAWTPotatoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HAWTPotatoCore;
+		};
+		P10000000000000000000005 /* HAWTPotatoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HAWTPotatoCore;
+		};
+		P10000000000000000000006 /* HAWTPotatoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HAWTPotatoCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1B2C3D40000000000000001 /* Project object */;
+}

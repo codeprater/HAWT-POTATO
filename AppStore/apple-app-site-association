@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["N73XW3H4MX.com.courtneyprater.HawtPotato"],
+        "components": [
+          { "/": "/p/*" }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "N73XW3H4MX.com.courtneyprater.HawtPotato.Clip"
+    ]
+  }
+}

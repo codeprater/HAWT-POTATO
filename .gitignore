@@ -1,6 +1,9 @@
 xcuserdata/
-DerivedData/
+*.xcuserdatad
 *.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
 .build/
 *.moved-aside
 *.hmap
